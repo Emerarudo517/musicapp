@@ -11,6 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -18,13 +21,19 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#FFFFFF"
+			}
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f2c8d087-d7bd-44d0-97f6-92c91a8b2fd0"
+      }
+    },
+    "owner": "oweneme"
   }
 }
